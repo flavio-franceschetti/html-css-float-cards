@@ -47,10 +47,16 @@ header p {
   float: left;
   margin: 20px 20px;
   background-color: #0f0e17;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
   /* DEBUG */
   /* min-height: 100px; 
    */
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
 
 .card img {
