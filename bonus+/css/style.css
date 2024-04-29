@@ -1,0 +1,78 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* REUSABLE */
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* HEADER */
+
+h1 {
+  color: #e53472;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header p {
+  text-align: center;
+}
+
+/* MAIN */
+/* ---------------------------- */
+/* CARDS */
+
+.cards {
+  margin-top: 30px;
+}
+
+.card {
+  width: calc(100% / 3 - 40px);
+  float: left;
+  margin: 20px 20px;
+  background-color: #0f0e17;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* DEBUG */
+  /* min-height: 100px; 
+   */
+}
+
+.card img {
+  height: 100px;
+  float: left;
+}
+
+.member-info {
+  color: #fff;
+  padding: 16px 8px 16px 110px;
+}
+
+.member-info h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.member-info a {
+  color: #2b95be;
+  text-decoration: none;
+}
+
+/* ---------------------------- */
