@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+h1 {
+  color: #e53472;
+  text-align: center;
+}
